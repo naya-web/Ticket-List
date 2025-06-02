@@ -1,0 +1,10 @@
+.home-page {
+    display: flex;
+    height: 100vh;
+}
+
+@media (max-width: 768px) {
+ .home-page {
+    padding-bottom: 50px;
+ }
+}

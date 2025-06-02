@@ -30,7 +30,7 @@ function Sidebar() {
   const [activeIndex, setActiveIndex] = useState(1);
   return (
     <>
-      <div className="d-flex flex-column align-items-center sidebar">
+      <div className="sidebar">
         <img src={logo} alt="" />
         {icons.map((icon, index) => (
           <SidebarIcon

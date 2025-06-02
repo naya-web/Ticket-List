@@ -1,5 +1,6 @@
 
 import React, { useEffect } from "react";
+import './HomePageStyle.css'
 import { useDispatch, useSelector } from "react-redux";
 import {
   getTickets,
@@ -24,7 +25,7 @@ function HomePage() {
   };
 
   return (
-    <div className="d-flex vh-100">
+    <div className=" home-page">
       <Sidebar />
       <div className="flex-grow-1 d-flex flex-column">
         <Navbar />

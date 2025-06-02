@@ -12,7 +12,7 @@
   transition: 0.3s;
 }
 .sidebar-icon:hover,
- .sidebar-icon.active{
+.sidebar-icon.active {
   background: #ffffff33;
 
   transition: 0.3s;
@@ -22,4 +22,15 @@
   filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%)
     hue-rotate(107deg) brightness(104%) contrast(103%);
   transition: 0.3s;
+}
+
+@media (max-width: 768px) {
+  .sidebar-icon {
+    width: 30px;
+    height: 30px;
+  }
+  .sidebar-icon img {
+    width: 20px;
+    height: 20px;
+  }
 }

@@ -12,5 +12,33 @@
 .ticket-status .statuses-container {
   display: flex;
   flex-direction: column;
-  /* gap: 24px; */
 }
+
+@media (max-width: 768px) {
+   .ticket-status img{
+    display: none;
+  }
+}
+
+
+@media (max-width: 1024px) {
+ .ticket-status {
+    width: 100% !important;
+    padding-top: 0;
+  }
+.ticket-status .statuses-container {
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    justify-content: space-between;
+    gap: 8px;
+  }
+
+  .ticket-status .statuses-container > div {
+    flex: 1 1 0;
+    min-width: 0;
+  }
+
+}
+
+
+

@@ -14,7 +14,9 @@ function Navbar() {
           <div className="search-filte-container">
             <div className="search">
               <input type="search" placeholder="Search" />
-              <img src={search} alt="" />
+              <div className="search-icon">
+                <img src={search} className="" alt="" />
+              </div>
             </div>
             <div className="filter">
               <img src={filter} alt="" />

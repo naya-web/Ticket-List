@@ -148,3 +148,58 @@
   position: relative;
   z-index: -1;
 }
+
+@media (max-width: 1024px) {
+  .custom-select,
+  .custom-select-wrapper .custom-select,
+  .page-controls .page,
+  .page-controls .arrow,
+  .rows-select label {
+    font-size: 11px !important;
+  }
+
+  .chat .ticket-info .subject-title,
+  .chat .chat-header .user-info h2 {
+    font-size: 13px !important;
+  }
+  .chat {
+    width: 100% !important;
+    border-left: none !important;
+    border-top: 1px solid #dad4ea;
+    overflow-y: scroll;
+  
+  }
+  .chat {
+    width: 100% !important;
+    border-left: none !important;
+    overflow-y: auto;
+  }
+
+  .chat.chat-expanded {
+    min-height: 400vh;
+  }
+  .chat .send-box {
+    position: fixed;
+    width: 90%;
+    margin-bottom: 36px;
+  }
+}
+
+@media (max-width: 768px) {
+  .custom-select,
+  .custom-select-wrapper .custom-select,
+  .page-controls .page,
+  .page-controls .arrow,
+  .rows-select label {
+    font-size: 10px !important;
+  }
+
+  .chat .ticket-info .subject-title,
+  .chat .chat-header .user-info h2 {
+    font-size: 12px !important;
+  }
+
+  .message .subject {
+    font-size: 12px !important;
+  }
+}

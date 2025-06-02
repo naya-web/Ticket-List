@@ -23,3 +23,19 @@
   border-right: 3px solid #7336E6;
   background: none;
 }
+
+@media (max-width: 1024px) {
+ .status-card {
+    border: none !important;
+    box-shadow: none !important;
+    border-right: 1px solid #dad6e3;
+    width: 100%;
+  }
+
+  .status-card.active-status {
+    border-right: none !important;
+    border-bottom: 3px solid #7336e6 !important;
+    box-shadow: 0px 2px 8px 0px #dad6e3 !important;
+    background: none;
+  }
+}

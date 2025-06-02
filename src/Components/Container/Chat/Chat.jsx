@@ -6,7 +6,6 @@ import email from "../../../assets/icons/email1.png";
 import location from "../../../assets/icons/location1.png";
 import user from "../../../assets/userimg.png";
 import close from "../../../assets/icons/close-chat.png";
-import { FaLocationDot } from "react-icons/fa6";
 import Message from "../../AllComponents/ChatComponents/Message";
 import img from "../../../assets/userimg.png";
 
@@ -64,7 +63,7 @@ function Chat() {
   const messages = selectedTicket.messages || [];
 
   return (
-    <div className="chat">
+    <div className={`chat ${selectedTicket ? "chat-expanded" : ""}`}>
       {/* Chat header */}
       <div className="chat-header">
         <div className="user-section">
@@ -82,7 +81,6 @@ function Chat() {
                 <div className="icon">
                   <img src={location} alt="" />
                 </div>
-                {/* <FaLocationDot className="fs-4" /> */}
               </div>
             </div>
           </div>

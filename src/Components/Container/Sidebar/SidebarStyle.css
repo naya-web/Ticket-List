@@ -3,4 +3,29 @@
   gap: 42px;
   width: 6%;
   background: linear-gradient(104.35deg, #251f32 12.45%, #3a2f53 79.96%);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+
+@media (max-width: 768px) {
+  .sidebar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    padding: 0 12px;
+    flex-direction: row !important;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 999; 
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(104.35deg, #251f32 12.45%, #3a2f53 79.96%);
+  }
+
+
+  
 }
