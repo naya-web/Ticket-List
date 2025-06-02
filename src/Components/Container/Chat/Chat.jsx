@@ -7,7 +7,7 @@ import location from "../../../assets/icons/location1.png";
 import user from "../../../assets/userimg.png";
 import close from "../../../assets/icons/close-chat.png";
 import { FaLocationDot } from "react-icons/fa6";
-import Message from "../../AllComponents/ChatComponents/message";
+import Message from "../../AllComponents/ChatComponents/Message";
 import img from "../../../assets/userimg.png";
 
 import smile from "../../../assets/icons/smile.png";
