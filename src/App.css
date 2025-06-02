@@ -1,0 +1,200 @@
+.row > * {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+body {
+  font-family: "DM Sans", sans-serif !important;
+}
+h1 {
+  font-size: 20px !important;
+  font-weight: 600 !important;
+}
+h2 {
+  font-size: 14px !important;
+  font-weight: 600 !important;
+}
+p {
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  margin-bottom: 0 !important;
+}
+small {
+  font-size: 12px !important;
+  font-weight: 400 !important;
+}
+
+@media (max-width: 1024px) {
+
+  /* font size  */
+   h1 {
+    font-size: 18px !important;
+  }
+
+  h2 {
+    font-size: 13px !important;
+  }
+
+  p {
+    font-size: 13px !important;
+  }
+
+  small {
+    font-size: 11px !important;
+  }
+
+  .custom-select,
+  .custom-select-wrapper .custom-select,
+  .page-controls .page,
+  .page-controls .arrow,
+  .rows-select label {
+    font-size: 11px !important;
+  }
+
+  .chat .ticket-info .subject-title,
+  .chat .chat-header .user-info h2 {
+    font-size: 13px !important;
+  }
+
+  .message .subject {
+    font-size: 13px !important;
+  }
+
+
+  /* other desin details  */
+
+  .d-flex.flex-grow-1 {
+    flex-direction: column !important;
+    overflow: auto;
+  }
+
+  .chat {
+    width: 100% !important;
+    border-left: none !important;
+  }
+
+  .ticket-list-container {
+    width: 100% !important;
+  }
+
+  .ticket-status {
+    width: 100% !important;
+  }
+
+  .nav-bar {
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+  }
+
+  .sidebar {
+    flex-direction: row;
+    padding: 10px 0;
+  }
+
+  .ticket-status .statuses-container {
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    justify-content: space-between;
+    gap: 8px;
+  }
+
+  .ticket-status .statuses-container > div {
+    flex: 1 1 0;
+    min-width: 0;
+  }
+
+  .status-card {
+    border: none !important;
+    box-shadow: none !important;
+    border-right: 1px solid #dad6e3;
+    width: 100%;
+  }
+
+  .status-card.active-status {
+    border-right: none !important;
+    border-bottom: 3px solid #7336e6 !important;
+    box-shadow: 0px 2px 8px 0px #dad6e3 !important;
+    background: none;
+  }
+
+
+
+
+  .nav-bar .left-nav .search input {
+    display: none !important;
+  }
+
+  .nav-bar .left-nav .search {
+    justify-content: center !important;
+    width: 40px !important;
+    padding: 0 !important;
+    border: none !important;
+    background: none !important;
+  }
+
+
+
+   .nav-bar {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .nav-bar .left-nav {
+    flex: 1;
+    gap: 0;
+  }
+
+  .nav-bar .search-filte-container {
+    order: 2;
+    margin-left: auto;
+    display: flex !important;
+    gap: 8px;
+  }
+
+  .nav-bar .nav-right {
+    order: 1;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+}
+
+
+
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 16px !important;
+  }
+
+  h2 {
+    font-size: 12px !important;
+  }
+
+  p {
+    font-size: 12px !important;
+  }
+
+  small {
+    font-size: 10px !important;
+  }
+
+  .custom-select,
+  .custom-select-wrapper .custom-select,
+  .page-controls .page,
+  .page-controls .arrow,
+  .rows-select label {
+    font-size: 10px !important;
+  }
+
+  .chat .ticket-info .subject-title,
+  .chat .chat-header .user-info h2 {
+    font-size: 12px !important;
+  }
+
+  .message .subject {
+    font-size: 12px !important;
+  }
+}

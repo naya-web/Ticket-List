@@ -1,0 +1,97 @@
+.nav-bar {
+  box-shadow: 0px 2px 6px 0px #b9b5c0a6;
+  height: 8%;
+  min-height: 60px;
+  background: #f9f5ff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 20px;
+  position: relative;
+  flex-direction: row;
+}
+.nav-bar .left-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 105px;
+}
+.nav-bar .left-nav .search-filte-container {
+  display: flex;
+  gap: 12px;
+}
+.nav-bar .left-nav .search {
+  border: 1px solid #dad4ea;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  width: 281px;
+  height: 32px;
+  border-radius: 40px;
+  padding: 6px 16px;
+}
+.nav-bar .left-nav img {
+  filter: brightness(0) saturate(100%) invert(37%) sepia(16%) saturate(299%)
+    hue-rotate(220deg) brightness(96%) contrast(89%);
+}
+.nav-bar .left-nav .search input {
+  border: none;
+  background: none;
+}
+.nav-title {
+  line-height: 100%;
+  letter-spacing: 0;
+  color: #7336e6;
+}
+.nav-bar .filter {
+  background-color: #fff;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  border: 1px solid #dad4ea;
+}
+.nav-bar .nav-right {
+  display: flex;
+  gap: 16px;
+}
+.nav-bar .nav-right .notification {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  border-radius: 100px;
+  padding: 4px;
+  border: 1px solid #dad4ea;
+  position: relative;
+}
+.nav-bar .nav-right .notification img {
+  filter: brightness(0) saturate(100%) invert(37%) sepia(16%) saturate(299%)
+    hue-rotate(220deg) brightness(96%) contrast(89%);
+}
+.nav-bar .nav-right .notification::after {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  background: #e76a63;
+  top: 15%;
+  right: 19%;
+  border-radius: 50%;
+}
+.nav-bar .nav-right .user {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  border-radius: 100px;
+  padding: 4px;
+  background-color: #c9c1de;
+  border: 1px solid #dad4ea;
+}
+.nav-bar .nav-right .user img {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%)
+    hue-rotate(107deg) brightness(104%) contrast(103%);
+}

@@ -1,0 +1,16 @@
+.ticket-status {
+  width: 15%;
+  padding-top: 44px;
+  border-right: 1px solid #ddd;
+  overflow-y: auto;
+  box-shadow: 2px 0px 4px 0px #e2dfe9;
+  position: relative;
+  cursor: pointer;
+
+  
+}
+.ticket-status .statuses-container {
+  display: flex;
+  flex-direction: column;
+  /* gap: 24px; */
+}
