@@ -202,4 +202,14 @@
   .message .subject {
     font-size: 12px !important;
   }
+    .chat .send-box .send-btn{
+    width: 28px;
+    height: 28px;
+  }
+  .chat .send-box input {
+    width: 100%;
+  }
+  .chat .send-box input::placeholder {
+    font-size: 12px;
+  }
 }
